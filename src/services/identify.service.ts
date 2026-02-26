@@ -23,6 +23,7 @@ export const identifyContact = async (
                 { email: email ?? undefined },
                 { phoneNumber: phoneNumber ?? undefined }
             ]
+
         }
     });
 
