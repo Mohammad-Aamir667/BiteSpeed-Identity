@@ -165,7 +165,7 @@ Server runs on:
 http://localhost:3000
 
 🌍 Hosted Endpoint
-https://your-deployed-url/identify
+https://bitespeed-identity-45mx.onrender.com
 
 
 (Replace with actual deployed URL)
