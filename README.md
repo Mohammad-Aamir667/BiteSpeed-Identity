@@ -40,7 +40,7 @@ Each identity cluster:
 - **Node.js**
 - **TypeScript**
 - **Express**
-- **PostgreSQL (Supabase)**
+- **PostgreSQL (Neon)**
 - **Prisma ORM**
 
 ---
@@ -149,9 +149,10 @@ Create a .env file:
 DATABASE_URL="your_postgresql_connection_string"
 
 
-If using Supabase:
+Example Neon connection string:
 
-postgresql://username:password@host:5432/postgres?sslmode=require
+postgresql://username:password@ep-xxxx.us-east-1.aws.neon.tech/neondb?sslmode=require
+
 
 4. Run Prisma Migration
 npx prisma migrate dev --name init
@@ -165,7 +166,9 @@ Server runs on:
 http://localhost:3000
 
 🌍 Hosted Endpoint
-https://bitespeed-identity-45mx.onrender.com
+
+POST https://bitespeed-identity-45mx.onrender.com/identify
+
 
 
 (Replace with actual deployed URL)
